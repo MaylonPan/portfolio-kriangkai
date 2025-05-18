@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-playfair: "Playfair", serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+
+.button-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.wrapper {
+  height: 20%;
+  width: 60%;
+  border-left: dashed 2px var(--color-surface50);
+  border-right: dashed 2px var(--color-surface50);
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  flex-shrink: 0;
+  color: var(--color-just-black);
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.show-overflow {
+  overflow: visible;
+}
