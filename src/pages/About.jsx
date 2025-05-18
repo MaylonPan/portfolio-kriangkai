@@ -18,7 +18,7 @@ function About() {
                 <div className="w-full pl-50">
                   <img
                   className="w-30 mb-10"
-                  src="public/cat.png"/>
+                  src="/cat.png"/>
                 </div>
                 <div className="w-full pl-52">
                   <p className="w-120 text-[1.5rem] font-semibold">
@@ -29,7 +29,7 @@ function About() {
           <section className="w-full flex flex-col justify-center items-center mt-50">
             <img
             className="flex justify-center mb-20"
-            src="public/bass-profile.jpeg"/>
+            src="/bass-profile.jpeg"/>
           </section>
         </article>
 
@@ -43,32 +43,32 @@ function About() {
           </section>
             <section className="w-full flex flex-col">
             <div className="flex justify-end pr-60 pt-20">
-              <img src="public/creative-art.png"/>
+              <img src="/creative-art.png"/>
             </div>
           </section>
         </article>
         <article className="w-full flex justify-center mt-50 mb-50">
             <div className="w-200 flex flex-row gap-5">
               <div>
-                <img src="public/html5.svg"/>
+                <img src="/html5.svg"/>
               </div>
               <div>
-                <img src="public/css3.svg"/>
+                <img src="/css3.svg"/>
               </div>
               <div>
-                <img src="public/javascript.svg"/>
+                <img src="/javascript.svg"/>
               </div>
               <div>
-                <img src="public/react.svg"/>
+                <img src="/react.svg"/>
               </div>
               <div>
-                <img src="public/mongodb.svg"/>
+                <img src="/mongodb.svg"/>
               </div>
               <div>
-                <img src="public/tailwind.svg"/>
+                <img src="/tailwind.svg"/>
               </div>
               <div>
-                <img src="public/sql.svg"/>
+                <img src="/sql.svg"/>
               </div>
 
             </div>
