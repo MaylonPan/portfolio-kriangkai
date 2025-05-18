@@ -10,8 +10,31 @@ function Contract() {
       <div className="flex flex-col justify-start w-[90%]">
         <HeadUi />
         <Navbar />
+        <article className="flex flex-row  text-[#545454]">
+          <section className="w-full min-h-screen mt-40 ml-40">
+            <h2 className="font-playfair font-semibold text-[8rem] italic">Let's collaborate</h2>
+            <button className="border-2 rounded-4xl py-2 px-4 text-[2rem]">Work with me</button>
+          </section>
+          <section className="w-full flex flex-col">
+            <div className="mt-100 ml-60 mb-20">
+              <p className="text-[2rem]">kriangkai.tko@gmail.com</p>
+              <p className="text-[2rem]">+66 618025665</p>
+            </div>
+            <div className="flex gap-10 ml-60">
+              <img src="src/assets/images/facebook.svg"
+              className="w-10"/>
+              <img src="src/assets/images/instagram.svg"
+              className="w-13"/>
+              <img src="src/assets/images/linkedin.svg"
+              className="w-10"/>
+              <img src="src/assets/images/github.svg"
+              className="w-10"/>
+            </div>
+
+          </section>
+        </article>
         <article>
-          <h2>HI</h2>
+          <div></div>
         </article>
       </div>
       </div>

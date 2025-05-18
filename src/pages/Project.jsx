@@ -29,8 +29,15 @@ function Project() {
               </div>
             </div>
           </section>
-          <section className="w-full flex flex-col justify-center items-center">
-            <p>HI</p>
+          <section className="w-full flex flex-col justify-center gap-20">
+            <div className="w-full flex justify-end pr-20">
+              <img
+              className="w-250"
+              src="src/assets/images/customike1.JPG"/>
+            </div>
+            <img
+            className="w-200"
+            src="src/assets/images/customike2.JPG"/>
           </section>
         </article>
       </div>
