@@ -33,11 +33,11 @@ function Project() {
             <div className="w-full flex justify-end pr-20">
               <img
               className="w-250"
-              src="../../public/customike1.JPG"/>
+              src="/public/customike1.JPG"/>
             </div>
             <img
             className="w-200"
-            src="../../public/customike2.JPG"/>
+            src="/public/customike2.JPG"/>
           </section>
         </article>
       </div>
