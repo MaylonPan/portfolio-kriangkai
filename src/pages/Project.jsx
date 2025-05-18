@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from "../assets/components/NavbarUi"
-import HeadUi from '../assets/components/HeadUi'
+import Navbar from "../assets/components/NavbarUi.jsx"
+import HeadUi from "../assets/components/HeadUi.jsx"
 
 function Project() {
   return (
@@ -33,11 +33,11 @@ function Project() {
             <div className="w-full flex justify-end pr-20">
               <img
               className="w-250"
-              src="../assets/images/customike1.JPG"/>
+              src="../../public/images/customike1.JPG"/>
             </div>
             <img
             className="w-200"
-            src="../assets/images/customike2.JPG"/>
+            src="../../public/images/customike2.JPG"/>
           </section>
         </article>
       </div>

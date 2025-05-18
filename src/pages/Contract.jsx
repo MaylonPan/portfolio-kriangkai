@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from "../assets/components/NavbarUi"
-import HeadUi from '../assets/components/HeadUi'
+import Navbar from "../assets/components/NavbarUi.jsx"
+import HeadUi from "../assets/components/HeadUi.jsx"
 
 
 function Contract() {
@@ -21,13 +21,13 @@ function Contract() {
               <p className="text-[2rem]">+66 618025665</p>
             </div>
             <div className="flex gap-10 ml-60">
-              <img src="../assets/images/facebook.svg"
+              <img src="../../public/images/facebook.svg"
               className="w-10"/>
-              <img src="../assets/images/instagram.svg"
+              <img src="../../public/images/instagram.svg"
               className="w-13"/>
-              <img src="../assets/images/linkedin.svg"
+              <img src="../../public/images/linkedin.svg"
               className="w-10"/>
-              <img src="../assets/images/github.svg"
+              <img src="../../public/images/github.svg"
               className="w-10"/>
             </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from "../assets/components/NavbarUi"
-import HeadUi from '../assets/components/HeadUi'
+import Navbar from "../assets/components/NavbarUi.jsx"
+import HeadUi from "../assets/components/HeadUi.jsx"
 
 function Home() {
   return (
@@ -24,7 +24,7 @@ function Home() {
           <section className="w-full flex justify-center items-center">
             <img
             className="flex justify-center w-200 h-150"
-            src="../assets/images/coding.gif"/>
+            src="../../public/images/coding.gif"/>
           </section>
         </article>
       </div>
