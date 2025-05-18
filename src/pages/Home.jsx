@@ -24,7 +24,7 @@ function Home() {
           <section className="w-full flex justify-center items-center">
             <img
             className="flex justify-center w-200 h-150"
-            src="src/assets/images/coding.gif"/>
+            src="../assets/images/coding.gif"/>
           </section>
         </article>
       </div>
