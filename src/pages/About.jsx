@@ -18,7 +18,7 @@ function About() {
                 <div className="w-full pl-50">
                   <img
                   className="w-30 mb-10"
-                  src="src/assets/images/cat.png"/>
+                  src="../assets/images/cat.png"/>
                 </div>
                 <div className="w-full pl-52">
                   <p className="w-120 text-[1.5rem] font-semibold">
@@ -29,7 +29,7 @@ function About() {
           <section className="w-full flex flex-col justify-center items-center mt-50">
             <img
             className="flex justify-center mb-20"
-            src="src/assets/images/bass-profile.jpeg"/>
+            src="../assets/images/bass-profile.jpeg"/>
           </section>
         </article>
 
@@ -43,32 +43,32 @@ function About() {
           </section>
             <section className="w-full flex flex-col">
             <div className="flex justify-end pr-60 pt-20">
-              <img src="src/assets/images/creative-art.png"/>
+              <img src="../assets/images/creative-art.png"/>
             </div>
           </section>
         </article>
         <article className="w-full flex justify-center mt-50 mb-50">
             <div className="w-200 flex flex-row gap-5">
               <div>
-                <img src="src/assets/images/html5.svg"/>
+                <img src="../assets/images/html5.svg"/>
               </div>
               <div>
-                <img src="src/assets/images/css3.svg"/>
+                <img src="../assets/images/css3.svg"/>
               </div>
               <div>
-                <img src="src/assets/images/javascript.svg"/>
+                <img src="../assets/images/javascript.svg"/>
               </div>
               <div>
-                <img src="src/assets/images/react.svg"/>
+                <img src="../assets/images/react.svg"/>
               </div>
               <div>
-                <img src="src/assets/images/mongodb.svg"/>
+                <img src="../assets/images/mongodb.svg"/>
               </div>
               <div>
-                <img src="src/assets/images/tailwind.svg"/>
+                <img src="../assets/images/tailwind.svg"/>
               </div>
               <div>
-                <img src="src/assets/images/sql.svg"/>
+                <img src="../assets/images/sql.svg"/>
               </div>
 
             </div>

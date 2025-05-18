@@ -21,13 +21,13 @@ function Contract() {
               <p className="text-[2rem]">+66 618025665</p>
             </div>
             <div className="flex gap-10 ml-60">
-              <img src="src/assets/images/facebook.svg"
+              <img src="../assets/images/facebook.svg"
               className="w-10"/>
-              <img src="src/assets/images/instagram.svg"
+              <img src="../assets/images/instagram.svg"
               className="w-13"/>
-              <img src="src/assets/images/linkedin.svg"
+              <img src="../assets/images/linkedin.svg"
               className="w-10"/>
-              <img src="src/assets/images/github.svg"
+              <img src="../assets/images/github.svg"
               className="w-10"/>
             </div>
 
