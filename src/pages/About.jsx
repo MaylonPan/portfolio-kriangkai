@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from "../assets/components/NavbarUi"
-import HeadUi from '../assets/components/HeadUi'
+import Navbar from "../assets/components/NavbarUi.jsx"
+import HeadUi from "../assets/components/HeadUi.jsx"
 
 function About() {
   return (
@@ -18,7 +18,7 @@ function About() {
                 <div className="w-full pl-50">
                   <img
                   className="w-30 mb-10"
-                  src="../assets/images/cat.png"/>
+                  src="../../public/images/cat.png"/>
                 </div>
                 <div className="w-full pl-52">
                   <p className="w-120 text-[1.5rem] font-semibold">
@@ -29,7 +29,7 @@ function About() {
           <section className="w-full flex flex-col justify-center items-center mt-50">
             <img
             className="flex justify-center mb-20"
-            src="../assets/images/bass-profile.jpeg"/>
+            src="../../public/images/bass-profile.jpeg"/>
           </section>
         </article>
 
@@ -43,32 +43,32 @@ function About() {
           </section>
             <section className="w-full flex flex-col">
             <div className="flex justify-end pr-60 pt-20">
-              <img src="../assets/images/creative-art.png"/>
+              <img src="../../public/images/creative-art.png"/>
             </div>
           </section>
         </article>
         <article className="w-full flex justify-center mt-50 mb-50">
             <div className="w-200 flex flex-row gap-5">
               <div>
-                <img src="../assets/images/html5.svg"/>
+                <img src="../../public/images/html5.svg"/>
               </div>
               <div>
-                <img src="../assets/images/css3.svg"/>
+                <img src="../../public/images/css3.svg"/>
               </div>
               <div>
-                <img src="../assets/images/javascript.svg"/>
+                <img src="../../public/images/javascript.svg"/>
               </div>
               <div>
-                <img src="../assets/images/react.svg"/>
+                <img src="../../public/images/react.svg"/>
               </div>
               <div>
-                <img src="../assets/images/mongodb.svg"/>
+                <img src="../../public/images/mongodb.svg"/>
               </div>
               <div>
-                <img src="../assets/images/tailwind.svg"/>
+                <img src="../../public/images/tailwind.svg"/>
               </div>
               <div>
-                <img src="../assets/images/sql.svg"/>
+                <img src="../../public/images/sql.svg"/>
               </div>
 
             </div>
