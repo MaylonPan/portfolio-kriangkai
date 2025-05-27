@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
         <nav className=" p-2 bg-[#d6d6d6] flex">
-          <ul className=" list-none flex flex-row justify-between w-full px-80 text-[1.25rem]">
+          <ul className=" list-none flex flex-row justify-between w-full mx-20 text-[1.25rem]">
             <li>
               <Link to="/">
               <p className="text-xs">01</p>
