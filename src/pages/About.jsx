@@ -5,7 +5,7 @@ import HeadUi from "../assets/components/HeadUi.jsx"
 function About() {
   return (
     <div>
-      <div className="h-screen w-screen flex justify-center bg-[#ebebeb]">
+      <div className="min-h-screen w-screen flex justify-center bg-[#ebebeb]">
         <p className="text-[#545454]flex justify-center mt-20 fixed bottom-5">Scroll for more</p>
       <div className="flex flex-col justify-start w-[90%]">
         <HeadUi />

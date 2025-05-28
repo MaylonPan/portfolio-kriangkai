@@ -5,7 +5,7 @@ import HeadUi from "../assets/components/HeadUi.jsx"
 function Project() {
   return (
     <div>
-      <div className="w-screen h-screen flex justify-center bg-[#ebebeb]">
+      <div className="w-screen min-h-screen flex justify-center bg-[#ebebeb]">
       <div className="flex flex-col justify-start w-[90%]">
         <HeadUi />
         <Navbar />
