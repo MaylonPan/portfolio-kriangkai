@@ -11,7 +11,7 @@ function Contract() {
         <HeadUi />
         <Navbar />
         <article className="flex flex-row  text-[#545454]">
-          <section className="w-full min-h-screen mt-40 ml-40">
+          <section className="w-full mt-40 ml-40">
             <h2 className="font-playfair font-semibold text-[8rem] italic">Let's collaborate</h2>
             <button className="border-2 rounded-4xl py-2 px-4 text-[2rem]">Work with me</button>
           </section>

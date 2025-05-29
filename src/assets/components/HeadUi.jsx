@@ -7,25 +7,32 @@ function HeadUi() {
       <div className="flex flex-row w-full">
         <div className="w-1/2">
           <h1 className="flex w-full p-6 font-extrabold text-[1.375rem]">
-            BbBb
+            <Link to="/">
+                BbBb</Link>
           </h1>
         </div>
-        <nav className=" p-2 flex w-1/2">
-          <ul className=" list-none flex flex-row justify-end items-center gap-20 w-full mx-20 text-[1.25rem]">
-            <li>
-              <Link to="/">
-              Home</Link></li>
-            <li>
-              <Link to="/about">
-              About</Link></li>
-            <li>
-              <Link to="/project">
-              Projects</Link></li>
-            <li>
-              <Link to="/contract">
-              Contract</Link></li>
-          </ul>
-        </nav>
+        <div className="hidden p-2 md:flex w-1/2">
+          <nav className="w-full h-full">
+            <ul className="list-none flex flex-row w-full h-full gap-10 justify-end items-center text-[1.25rem]">
+              <li>
+                <Link to="/">
+                Home</Link></li>
+              <li>
+                <Link to="/about">
+                About</Link></li>
+              <li>
+                <Link to="/project">
+                Projects</Link></li>
+              <li>
+                <Link to="/contract">
+                Contract</Link></li>
+            </ul>
+          </nav>
+        </div>
+        <div className="flex justify-end items-center w-full hover:cursor-pointer md:hidden">
+          <img className="w-8 h-8"
+          src="/hamburger-menu.svg"/>
+        </div>
       </div>
     </div>
   )
