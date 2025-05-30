@@ -22,7 +22,7 @@ function HeadUi() {
                 About</Link></li>
               <li>
                 <Link to="/project">
-                Projects</Link></li>
+                Project</Link></li>
               <li>
                 <Link to="/contract">
                 Contract</Link></li>

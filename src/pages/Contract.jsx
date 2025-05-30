@@ -9,7 +9,6 @@ function Contract() {
       <div className="w-screen min-h-screen flex justify-center bg-[#ebebeb]">
       <div className="flex flex-col justify-start w-[90%]">
         <HeadUi />
-        <Navbar />
         <article className="flex flex-row  text-[#545454]">
           <section className="w-full mt-40 ml-40">
             <h2 className="font-playfair font-semibold text-[8rem] italic">Let's collaborate</h2>
