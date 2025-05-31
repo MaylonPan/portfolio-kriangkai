@@ -24,8 +24,8 @@ function HeadUi() {
                 <Link to="/project">
                 Project</Link></li>
               <li>
-                <Link to="/contract">
-                Contract</Link></li>
+                <Link to="/contact">
+                Contact</Link></li>
             </ul>
           </nav>
         </div>

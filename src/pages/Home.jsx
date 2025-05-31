@@ -9,7 +9,7 @@ function Home() {
       <div className="flex flex-col justify-start w-[90%]">
         <HeadUi />
         <article className="flex justify-center">
-          <div className="flex flex-col mt-20 w-500 text-[#545454]">
+          <div className="flex flex-col mt-10 w-500 text-[#545454]">
             <h2 className="font-playfair italic font-bold text-[5rem] md:-mb-30 md:text-[10rem] lg:text-[14rem]">KRIANGKAI</h2>
             <h2 className="flex justify-end font-roboto text-[5rem] md:-mb-30 md:text-[10rem] lg:text-[14rem]">THAIKON</h2>
           </div>
