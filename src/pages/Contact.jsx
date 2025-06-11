@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from "../assets/components/NavbarUi.jsx"
 import HeadUi from "../assets/components/HeadUi.jsx"
 
 

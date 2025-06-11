@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import MobileNav from './MobileNav';
 
 function HeadUi() {
   return (
@@ -29,10 +30,7 @@ function HeadUi() {
             </ul>
           </nav>
         </div>
-        <div className="flex justify-end items-center w-full hover:cursor-pointer md:hidden">
-          <img className="w-8 h-8"
-          src="/hamburger-menu.svg"/>
-        </div>
+        <MobileNav />
       </div>
     </div>
   )
