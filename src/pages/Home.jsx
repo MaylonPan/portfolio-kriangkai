@@ -1,5 +1,14 @@
 import React from 'react'
 import HeadUi from "../assets/components/HeadUi.jsx"
+import { gsap } from "gsap";
+
+gsap.from("h2,p,a,img", {
+    y: 100,
+    opacity: 0,
+    duration: 1,
+    delay: 0.5,
+    ease: "power2.out"
+});
 
 function Home() {
   return (

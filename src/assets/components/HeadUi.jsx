@@ -1,6 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import MobileNav from './MobileNav';
+import { gsap } from "gsap";
+
+gsap.from("h1,p,li", {
+    y: 100,
+    opacity: 0,
+    duration: 1,
+    delay: 0.5,
+    ease: "power2.out"
+});
 
 function HeadUi() {
   return (

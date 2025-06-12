@@ -10,6 +10,15 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { AlignJustify } from 'lucide-react'
+import { gsap } from "gsap";
+
+gsap.from("li,p", {
+    y: 100,
+    opacity: 0,
+    duration: 1,
+    delay: 0.5,
+    ease: "power2.out"
+});
 
 function MobileNav() {
   return (
