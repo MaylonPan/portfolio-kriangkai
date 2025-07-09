@@ -17,7 +17,7 @@ function Project() {
         <p className="text-[#545454] flex justify-center mt-20 fixed bottom-5">Scroll for more</p>
       <div className="flex flex-col justify-start w-[90%]">
         <HeadUi />
-        <article className="flex flex-col text-[#545454] md:mt-20">
+        <article className="flex flex-col text-[#545454] border-b-1 border-[#545454] md:mt-20">
           <section className="w-full">
             <div className="flex flex-col w-full">
               <h3 className="text-[5rem] font-playfair italic -mb-8">Ecommerce</h3>
@@ -55,6 +55,28 @@ It allows anyone to upload their own artwork to create unique items and increase
             md:text-[3rem] md:rounded-4xl md:border-2
             ">Go To Website</a>
             </div>
+          </section>
+        </article>
+        <article className="flex flex-col text-[#545454] border-b-1 md:mt-20">
+          <section className="w-full">
+            <div className="flex flex-col w-full">
+              <h3 className="text-[5rem] font-playfair italic -mb-8">Business</h3>
+              <h3 className="text-[4rem]">Website</h3>
+            </div>
+          </section>
+          <section className="mt-20 flex flex-col items-center justify-center gap-20">
+            <h3 className="text-[5rem] font-playfair font-semibold italic">Tissus Design Studio</h3>
+            <a href="https://tissus-project.vercel.app/" target="_blank"
+            className="text-[1.25rem] border-1 rounded-3xl py-2 px-4 hover:text-[#ebebeb] hover:bg-[#545454] hover:cursor-pointer
+            md:text-[3rem] md:rounded-4xl md:border-2
+            ">Go To Website</a>
+            <img className="mb-10" src="/tissus1.JPG"/>
+            <img className="mb-10" src="/tissus2.JPG"/>
+            <img className="mb-10" src="/tissus3.JPG"/>
+            <a href="https://tissus-project.vercel.app/" target="_blank"
+            className="text-[1.25rem] border-1 rounded-3xl py-2 px-4 hover:text-[#ebebeb] hover:bg-[#545454] hover:cursor-pointer
+            md:text-[3rem] md:rounded-4xl md:border-2
+            ">Go To Website</a>
           </section>
         </article>
       </div>

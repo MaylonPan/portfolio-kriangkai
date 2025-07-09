@@ -29,22 +29,22 @@ function MobileNav() {
             </SheetTrigger>
             <SheetContent  className='bg-[#333] border-0'>
                 <ul className='gap-30 items-center text-white text-2xl flex flex-col mt-50'>
-                    <li className='hover:text-gray-500'>
+                    <li className='hover:text-gray-500 animated-underline'>
                         <Link to="/">
                         <p>Home</p>
                         </Link>
                     </li>
-                    <li className='hover:text-gray-500'>
+                    <li className='hover:text-gray-500 animated-underline'>
                         <Link to="/about">
                         <p>About</p>
                         </Link>
                     </li>
-                    <li className='hover:text-gray-500'>
+                    <li className='hover:text-gray-500 animated-underline'>
                         <Link to="/project">
                         <p>Projects</p>
                         </Link>
                     </li>
-                    <li className='hover:text-gray-500'>
+                    <li className='hover:text-gray-500 animated-underline'>
                         <Link to="/contact">
                         <p>Contact</p>
                         </Link>

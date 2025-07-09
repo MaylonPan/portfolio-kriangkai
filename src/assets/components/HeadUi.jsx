@@ -24,16 +24,16 @@ function HeadUi() {
         <div className="hidden p-2 md:flex w-1/2">
           <nav className="w-full h-full">
             <ul className="list-none flex flex-row w-full h-full gap-10 justify-end items-center text-[1.25rem]">
-              <li>
+              <li className=' animated-underline'>
                 <Link to="/">
                 Home</Link></li>
-              <li>
+              <li className=' animated-underline'>
                 <Link to="/about">
                 About</Link></li>
-              <li>
+              <li className=' animated-underline'>
                 <Link to="/project">
                 Project</Link></li>
-              <li>
+              <li className=' animated-underline'>
                 <Link to="/contact">
                 Contact</Link></li>
             </ul>
