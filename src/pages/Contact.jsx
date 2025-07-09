@@ -35,19 +35,19 @@ function Contract() {
               </div>
             </div>
           </section>
-          
+
           <section className="md:flex md:flex-row">
             <div className="pt-10 flex justify-center md:w-1/2 md:justify-start">
               <img src="/present.gif"/>
             </div>
-            <div className="grid grid-cols-2  mt-10 text-center gap-5 md:flex md:gap-10">
-              <a className="้ hover:font-semibold" target="_blank"
+            <div className="grid grid-cols-2 h-5 mt-10 gap-5 md:grid-cols-4 md:gap-10">
+              <a className="animated-underline" target="_blank"
               href="https://www.facebook.com/MaylonPan">Facebook</a>
-              <a className="้ hover:font-semibold"target="_blank"
+              <a className="animated-underline"target="_blank"
                href="https://www.instagram.com/itsmaylon?igsh=MTRoY3BmMDQ3emdxag%3D%3D&utm_source=qr">Instagram</a>
-              <a className="้ hover:font-semibold"target="_blank"
+              <a className="animated-underline"target="_blank"
                href="https://www.linkedin.com/in/kriangkai/">LinkedIn</a>
-              <a className="้ hover:font-semibold"target="_blank"
+              <a className="animated-underline"target="_blank"
                href="https://github.com/MaylonPan">Github</a>
             </div>
           </section>

@@ -50,7 +50,7 @@ function Home() {
         </article>
         <div className="text-center mt-20 md:mt-0">
           <a className="text-[2rem] hover:font-semibold underline" target="_blank"
-                href="https://www.canva.com/design/DAGjSedhGFM/6rz74wizsEM7Y3wgZI7A8w/view?utm_content=DAGjSedhGFM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7cea175053">Here's My CV</a>
+                href="https://www.canva.com/design/DAGjSedhGFM/yjIGgUqX4oMKJGKz_2_d2g/edit?utm_content=DAGjSedhGFM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Here's My CV</a>
         </div>
       </div>
     </div>
